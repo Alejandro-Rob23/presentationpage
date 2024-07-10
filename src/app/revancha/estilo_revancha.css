@@ -1,6 +1,7 @@
 .background_revancha {
   background-color: white;
   height: 1150px;
+  width: 1349px;
 }
 .targetas_handle {
   position: absolute;
@@ -11,41 +12,39 @@
   font-size: medium;
 }
 
-  .barranav_handle {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1345px;
-    height: 110px;
-    border-bottom: solid;
-    background-color: skyblue;
-    color: black;
-    font-size: medium;
-  }
-  .hora_barra_nav {
-    position: absolute;
-    left: 500px;
-    top: 20px;
-    font-family: "Times New Roman", Times, serif;
-  
+.barranav_handle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1345px;
+  height: 110px;
+  border-bottom: solid;
+  background-color: skyblue;
+  color: black;
+  font-size: medium;
 }
- 
+.hora_barra_nav {
+  position: absolute;
+  left: 500px;
+  top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .cuadrodebusqueda_barra_nav {
   position: absolute;
   top: 35px;
   left: 130px;
 }
-  .menude_opciones_barranav {
-    position: absolute;
-    right: 200px;
-    top: 35px;
-   
-    color: black;
-    list-style: none;
-    width: 350px;
-  
+.menude_opciones_barranav {
+  position: absolute;
+  right: 200px;
+  top: 35px;
+
+  color: black;
+  list-style: none;
+  width: 350px;
 }
-.menude_opciones_barranav.li{
+.menude_opciones_barranav.li {
   display: inline;
 }
 
@@ -68,7 +67,7 @@
   width: 330px;
   height: 150px;
   border-top-style: solid;
- 
+
   border-width: 1px;
 
   border-color: black;
@@ -90,7 +89,7 @@
   width: 330px;
   height: 150px;
   border-top-style: solid;
-  
+
   border-width: 1px;
 
   border-color: black;
@@ -141,349 +140,309 @@
 .imagendetargeta:hover {
   transform: translatex(-10%);
 }
-.box_blogs_handle{
-  position: absolute;
-  top: 630px; left:200px;
-  
-}
+
 .wrapper {
   display: flex;
+  position: absolute;
+  top: 630px;
+  left: 220px;
+  width: 700px;
 }
 .column {
-  display: flex;
   flex-direction: column;
+  display: flex;
 }
 .column > div {
   font-size: 4vh;
   color: black;
 
-  margin: .1em;
-  padding: .3em 1em;
+  margin: 0.1em;
+  padding: 0.3em 1em;
   border-radius: 3px;
   flex: 1;
-}  
-  .p:hover {
-    color: white;
-  }
-  .barra li {
-    display: inline;
-  }
- 
+}
 
-  .publicidad {
-    
-    position: absolute;
-    top: 365px;
-    left: 225px;
-    font-size: small;
-    width: 150px;
-    height: 250px;
-  }
-
-  .publicidad_2 {
-  
-    position: absolute;
-    top: 950px;
-    right:  60px;
-    font-size: small;
-    width: 330px;
-    height: 450px;
-
-
-  }
-  
-  .publicidad_11{
-   
-    position: absolute;
-    top: 210px;
-    left:  20px;
-    font-size: small;
-    width: 160px;
-    height: 1200px;
-
-
-  }
-  
-   
-  .publicidad_12{
-    position: absolute;
-    top: 910px;
-    left:  20px;
-    font-size: small;
-    width: 160px;
-    height: 500px;
-
-
-  }
- 
-  
-  
-  div h6 {
-    color: red;
-    padding: 10px;
-  }
-  
-  .anchocuerpo {
-    height: 120px;
-    width: 200px;
-    font-size: medium;
-    left: 1px;
-    font-weight: bold;
-    line-height: 1.5em;
-    text-align: left;
-    padding: 5px;
-  }
-  
-  .contenedor {
-    position: relative;
-  
-    width: 300px;
-    height: 250px;
-    overflow: hidden;
-  }
-  
-  .blogpequeño1 {
-    
-   
-    height: 240px;
-    font-size: small;
-    width: 250px;
-  }
-  .imagenblogp1 {
-    position: relative;
-  }
-  .blogpequeño2 {
-   
- 
-    height: 220px;
-    width: 250px;
-    font-size: small;
-  }
-  .imagenblogp2 {
-    position: relative;
-  }
-  .blogpequeño3 {
-  
-   
-    height: 220px;
-    width: 250px;
-    font-size: small;
-  }
-  .imagenblogp3 {
-    position: relative;
-  }
-
-  .imgblog1 {
-    position: relative;
-  
-    left: 0px;
-  }
-  
-  .imgblog1:hover {
-    opacity: 70%;
-  }
-  .textoblog1 {
-    position: relative;
-    top: 15px;
-    left: 0px;
-    width: 460px;
-    height: 80px;
-    font-weight: 400;
-  }
-  .textoblog2 {
-    position: relative;
-    top: 35px;
-    left: 0px;
-    width: 460px;
-    height: 80px;
-  }
-  .subra {
-    background-color: yellow;
-    opacity: 75%;
-  }
-  .blogsprincipales {
-    font-size: medium;
-    width: 390px;
-    height: 320px;
-    padding-bottom: 10px;
-  }
-  
-  .blogsprincipales2 {
-   position: relative;
-  top: 70px;
-    width: 390px;
-    height: 250px;
-  }
-
-  .piedepagina {
-    position:  relative;
-    top: 1500px;
-    left: 0px;
-    font-size: small;
+.publicidad {
   position: absolute;
-  
-    width: 1345px;
-    height: 200px;
-    border-top-style:solid;
-    background-color: rgb(155, 186, 231);
- 
-    border-top-left-radius:5% ;
-    border-top-right-radius:5% ;
-    
-  }
+  top: 365px;
+  left: 225px;
+  font-size: small;
+  width: 150px;
+  height: 250px;
+}
 
-  .abajito {
-    list-style: none;
-    position: absolute;
-  top: 120px; left: 220px;
-    width: 410px;height: 50px;
-    border-bottom-style:solid;
-    border-bottom-width: 2px;
-  }
-.abajito.li{
+.publicidad_2 {
+  position: absolute;
+  top: 950px;
+  right: 60px;
+  font-size: small;
+  width: 330px;
+  height: 450px;
+}
+
+.publicidad_11 {
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  font-size: small;
+  width: 160px;
+  height: 1200px;
+}
+
+.publicidad_12 {
+  position: absolute;
+  top: 910px;
+  left: 20px;
+  font-size: small;
+  width: 160px;
+  height: 500px;
+}
+
+div h6 {
+  color: red;
+  padding: 10px;
+}
+
+.anchocuerpo {
+  height: 120px;
+  width: 200px;
+  font-size: medium;
+  left: 1px;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 5px;
+}
+
+.contenedor {
+  position: relative;
+
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+.los_sonambulo {
+  position: absolute;
+  top: 630px;
+  left: 200px;
+  width: 700px;
+  font-size: small;
+}
+
+.blogpequeño1 {
+  height: 240px;
+  font-size: small;
+  width: 250px;
+}
+.imagenblogp1 {
+  position: relative;
+}
+.blogpequeño2 {
+  height: 220px;
+  width: 250px;
+  font-size: small;
+}
+.imagenblogp2 {
+  position: relative;
+}
+.blogpequeño3 {
+  height: 220px;
+  width: 250px;
+  font-size: small;
+}
+.imagenblogp3 {
+  position: relative;
+}
+
+.imgblog1 {
+  position: relative;
+
+  left: 0px;
+}
+
+.imgblog1:hover {
+  opacity: 70%;
+}
+.textoblog1 {
+  position: relative;
+  top: 15px;
+  left: 0px;
+  width: 460px;
+  height: 80px;
+  font-weight: 400;
+}
+.textoblog2 {
+  position: relative;
+  top: 35px;
+  left: 0px;
+  width: 460px;
+  height: 80px;
+}
+.subra {
+  background-color: yellow;
+  opacity: 75%;
+}
+.blogsprincipales {
+  font-size: medium;
+  width: 390px;
+  height: 320px;
+  padding-bottom: 10px;
+}
+
+.blogsprincipales2 {
+  position: relative;
+  top: 70px;
+  width: 390px;
+  height: 250px;
+}
+
+.piedepagina {
+  position: relative;
+  top: 1420px;
+  left: 0px;
+  font-size: small;
+  position: absolute;
+
+  width: 1345px;
+  height: 200px;
+  border-top-style: solid;
+  background-color: rgb(155, 186, 231);
+
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.downbox {
+  list-style: none;
+  position: absolute;
+  top: 120px;
+  left: 220px;
+  width: 410px;
+  height: 50px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.downbox.li {
   display: inline;
 }
 
-   .iconosabajo{
-    position: absolute;
-    left: 220px;
-    top: 40px;
-   }
-  .iconospiedepaina25 {
-    position: relative;
-  }
-  
-  .pie_de_abao3 {
-    text-align: right;
-    position: absolute;
-    top: 30px;
-    right: 400px;
+.icondown {
+  position: absolute;
+  left: 220px;
+  top: 40px;
+}
+
+.footdown3 {
+  text-align: right;
+  position: absolute;
+  top: 30px;
+  right: 400px;
   width: 400px;
-    padding: 15px;
-  }
-  .pieiamgen{
-    position: absolute;
-    right : 15px; top: 50px;
-  }
-  
-  
-  
-  
-  .box_blogs_handle{
-    position: absolute;
-    top: 630px; left:200px;
-    
-  }
-  
+  padding: 15px;
+}
+.pieiamgen {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}
 
-
-
-
-
-
-
-
-
-  @media screen and (max-width:320px){
-    .background_revancha {
+@media screen and (max-width: 320px) {
+  .background_revancha {
       background-color: white;
       height: 550px;
-    }
-    .targetas_handle {
+      width: 320px;
+  }
+  .targetas_handle {
       position: absolute;
       top: 650px;
-      right: 60px;
-      width: 330px;
+      left: 5px;
+      width: 310px;
       height: 650px;
       font-size: medium;
-    }
-    
-      .barranav_handle {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 320px;
-        height: 110px;
-        border-bottom: solid;
-        background-color: skyblue;
-        color: black;
-        font-size: small;
-      }
-      .hora_barra_nav {
-        position: absolute;
-        left: 20px;
-        top: 20px;
-        font-family: "Times New Roman", Times, serif;
-      
-    }
-     
-    .cuadrodebusqueda_barra_nav {
-    visibility: hidden;
-    }
-      .menude_opciones_barranav {
-        position: absolute;
-        left: 110px;
-        top: 60px;
-       
-        color: black;
-        list-style: none;
-        width: 350px;
-      
-    }
-    .menude_opciones_barranav.li{
+  }
+
+  .barranav_handle {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 320px;
+      height: 110px;
+      border-bottom: solid;
+      background-color: skyblue;
+      color: black;
+      font-size: small;
+  }
+  .hora_barra_nav {
+      position: absolute;
+      left: 20px;
+      width: 150px;
+      top: 20px;
+      font-family: "Times New Roman", Times, serif;
+  }
+
+  .menude_opciones_barranav {
+      position: absolute;
+      left: 110px;
+      top: 60px;
+
+      color: black;
+      list-style: none;
+      width: 210px;
+  }
+  .menude_opciones_barranav.li {
       display: inline;
-    }
-    
-    .notaprinc_handle {
+  }
+
+  .notaprinc_handle {
       position: absolute;
       top: 130px;
       left: 5px;
       width: 310px;
-    }
-    
-    .parrafo_notaprinc {
+  }
+
+  .parrafo_notaprinc {
       position: relative;
       left: 5px;
       width: 310px;
       font-size: medium;
-    }
-    .targeta_1_handle {
+  }
+  .targeta_1_handle {
       position: relative;
-    top: 5px;
-    left: 75px;
+      top: 5px;
+      left: 0px;
       width: 310px;
       height: 150px;
       border-top-style: solid;
-     
+
       border-width: 1px;
-    
+
       border-color: black;
-    }
-    
-    .img_targ1 {
+  }
+
+  .img_targ1 {
       position: absolute;
       top: 20px;
       right: 1px;
-    
+
       border-radius: 100%;
       transform: translatex(0%);
       transition: transform 0.2s ease-out;
-    }
-    
-    .targeta_2_handle {
+  }
+
+  .targeta_2_handle {
       position: relative;
-     
-      left: 75px;
-        width: 310px;
+
+      left: 0px;
+      width: 310px;
       height: 150px;
       border-top-style: solid;
-      
+
       border-width: 1px;
-    
+
       border-color: black;
-    }
-    
-    .img_targ2 {
+  }
+
+  .img_targ2 {
       position: absolute;
       top: 20px;
       right: 1px;
@@ -491,21 +450,21 @@
       border-radius: 100%;
       transform: translatex(0%);
       transition: transform 0.2s ease-out;
-    }
-    .targeta_3_handle {
+  }
+  .targeta_3_handle {
       position: relative;
-  
-    left: 75px;
+
+      left: 0px;
       width: 310px;
       height: 150px;
       border-top-style: solid;
-    
+
       border-width: 1px;
-    
+
       border-color: black;
-    }
-    
-    .img_targ3 {
+  }
+
+  .img_targ3 {
       position: absolute;
       top: 20px;
       right: 1px;
@@ -513,223 +472,74 @@
       border-radius: 100%;
       transform: translatex(0%);
       transition: transform 0.2s ease-out;
-    }
-    
-    .targeta_4_handle {
-    visibility: hidden;
-    left: 0px;
-    }
-    .imagendetargeta:hover {
-      transform: translatex(-10%);
-    }
-    .box_blogs_handle{
-      position: absolute;
-      top: 630px; left:200px;
-      
-    }
-    .wrapper {
-      display: flex;
-    }
-    .column {
-      display: flex;
-      flex-direction: column;
-    }
-    .column > div {
-      font-size: 4vh;
-      color: black;
-    
-      margin: .1em;
-      padding: .3em 1em;
-      border-radius: 3px;
-      flex: 1;
-    }
-      .p:hover {
-        color: white;
-      }
-      .barra li {
-        display: inline;
-      }
-     
-    
-      .publicidad {
-        visibility: hidden;
-        left: 0px;
-      }
-    
-      .publicidad_2 {
-      
-        visibility: hidden;
-        left: 0px;
-    
-      }
-      
-      .publicidad_11{
-       visibility: hidden;
-       left: 0px;
-    
-    
-      }
-      
-       
-      .publicidad_12{
-        visibility: hidden;
-        left: 0px;
-    
-      }
-     
-      
-      
-      div h6 {
-        color: red;
-        padding: 10px;
-      }
-      
-      .anchocuerpo {
-        height: 120px;
-        width: 200px;
-        font-size: medium;
-        left: 1px;
-        font-weight: bold;
-        line-height: 1.5em;
-        text-align: left;
-        padding: 5px;
-      }
-      
-      .contenedor {
-        position: relative;
-      
-        width: 300px;
-        height: 250px;
-        overflow: hidden;
-      }
-      
-      .blogpequeño1 {
-        
-       
-        height: 240px;
-        font-size: small;
-        width: 250px;
-      }
-      .imagenblogp1 {
-        position: relative;
-      }
-      .blogpequeño2 {
-       
-     
-        height: 220px;
-        width: 250px;
-        font-size: small;
-      }
-      .imagenblogp2 {
-        position: relative;
-      }
-      .blogpequeño3 {
-      
-       
-        height: 220px;
-        width: 250px;
-        font-size: small;
-      }
-      .imagenblogp3 {
-        position: relative;
-      }
-    
-      .imgblog1 {
-        position: relative;
-      
-        left: 0px;
-      }
-      
-      .imgblog1:hover {
-        opacity: 70%;
-      }
-      .textoblog1 {
-        position: relative;
-        top: 15px;
-        left: 0px;
-        width: 460px;
-        height: 80px;
-        font-weight: 400;
-      }
-      .textoblog2 {
-        position: relative;
-        top: 35px;
-        left: 0px;
-        width: 460px;
-        height: 80px;
-      }
-      .subra {
-        background-color: yellow;
-        opacity: 75%;
-      }
-      .blogsprincipales {
-        font-size: medium;
-        width: 390px;
-        height: 320px;
-        padding-bottom: 10px;
-      }
-      
-      .blogsprincipales2 {
-       position: relative;
-      top: 70px;
-        width: 390px;
-        height: 250px;
-      }
-       
-      
-      .piedepagina {
-        position:  relative;
-        top: 1150px;
-        left: 0px;
-      
-        font-size: small;
-      position: absolute;
-      
-        width: 320px;
-        height: 200px;
-        border-top-style:solid;
-        background-color: rgb(155, 186, 231);
-     
-        border-top-left-radius:5% ;
-        border-top-right-radius:5% ;
-        
-      }
-    
-      .abajito {
-        list-style: none;
-        position: absolute;
-      top: 120px; left: 5px;
-        width: 410px;height: 50px;
-        border-bottom-style:solid;
-        border-bottom-width: 2px;
-      }
-    .abajito.li{
-      display: inline;
-    }
-    
-       .iconosabajo{
-        position: absolute;
-        left: 10px;
-        top: 40px;
-       }
-      .iconospiedepaina25 {
-        position: relative;
-      }
-      
-      .pie_de_abao3 {
-     visibility: hidden;
-      }
-      .pieiamgen{
-        position: absolute;
-        right : 15px; top: 50px;
-      }
-      
-      
-      
-      
-      .box_blogs_handle{
-        visibility: hidden;
-        
-      }
-      
   }
+  .piedepagina {
+      position: relative;
+      top: 1150px;
+      left: 0px;
+
+      font-size: small;
+      position: absolute;
+
+      width: 320px;
+      height: 200px;
+      border-top-style: solid;
+      background-color: rgb(155, 186, 231);
+
+      border-top-left-radius: 5%;
+      border-top-right-radius: 5%;
+  }
+
+  .downbox {
+      list-style: none;
+      position: absolute;
+      top: 120px;
+      left: 5px;
+      width: 300px;
+      height: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  .downbox.li {
+      display: inline;
+  }
+
+  .icondown {
+      position: absolute;
+      left: 10px;
+      top: 40px;
+  }
+
+  .footdown3 {
+      display: none;
+  }
+  .pieiamgen {
+      display: none;
+  }
+
+  .targeta_4_handle {
+      display: none;
+  }
+  .cuadrodebusqueda_barra_nav {
+      display: none;
+  }
+
+  .wrapper {
+      display: none;
+  }
+  .publicidad {
+      display: none;
+  }
+
+  .publicidad_2 {
+      display: none;
+  }
+
+  .publicidad_11 {
+      display: none;
+  }
+
+  .publicidad_12 {
+      display: none;
+  }
+}

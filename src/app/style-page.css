@@ -2,30 +2,7 @@
   background-color: #405158;
   width: 1349px;
   height: 1580px;
-  z-index: -1;
 }
-
-.wrapper {
-  position: absolute;
-  display: flex;
-  width: 750px;
-  left: 400px;
-  text-align: center;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-}
-.column {
-  font-size: 4vh;
-  color: white;
-  background: #405158;
-  margin: 0.1em;
-  padding: 0.3em 1em;
-  border-radius: 3px;
-  flex: 1;
-}
-
 .face_elements {
   position: absolute;
   top: 15px;
@@ -39,13 +16,32 @@
   border-radius: 5%;
   position: relative;
   height: 250px;
-width: 450px;
+  width: 450px;
+}
+
+.containerbox {
+  position: absolute;
+  display: flex;
+  width: 750px;
+  left: 400px;
+  text-align: center;
+}
+.insidebox {
+  display: flex;
+  flex-direction: column;
+  font-size: 4vh;
+  color: white;
+  background: #405158;
+  margin: 0.1em;
+  padding: 0.3em 1em;
+  border-radius: 3px;
+  flex: 1;
 }
 ._info_column_handle {
   position: absolute;
   top: 500px;
   left: 180px;
- width: 950px;
+  width: 950px;
   font-size: small;
   color: white;
   list-style: none;
@@ -56,10 +52,8 @@ width: 450px;
   text-align: center;
 }
 .paquet > div {
-  
   color: white;
- 
-  
+
   padding-left: 10px;
   border-radius: 3px;
   flex: 1;
@@ -67,12 +61,12 @@ width: 450px;
 .revanchaproject {
   position: absolute;
   top: 1150px;
-  left: 290px;
+  left: 370px;
   text-align: left;
   font-size: small;
 
   height: 220px;
-  width: 700px;
+  width: 550px;
   border-radius: 15%;
   color: white;
 }
@@ -100,14 +94,30 @@ width: 450px;
 .cbdproject {
   position: absolute;
   top: 800px;
-  left: 290px;
+  left: 370px;
 
   font-size: small;
   height: 220px;
-  width: 700px;
+  width: 550px;
   border-radius: 15%;
 
   color: white;
+}
+
+.fila_1 {
+  position: absolute;
+  left: 0px;
+}
+.fila_2 {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  position: absolute;
+  width: 180px;
+  border-top-style: solid;
+  padding-top: 7px;
+  border-width: 2px;
+  border-color: #C80036;
 }
 .imagendecbd_handle {
   position: absolute;
@@ -116,7 +126,7 @@ width: 450px;
   border-style: solid;
   border-color: black;
   border-width: 3px;
- height: 270px;
+  height: 270px;
   width: 270px;
 }
 
@@ -136,23 +146,8 @@ width: 450px;
   left: 370px;
 
   height: 120px;
-  
 
   color: black;
-
-}
-.titulo_foter{
-  position: absolute;
-  top: -20px; left: 63px;
-}
-
-#lista {
-  list-style: none;
-  width: 400px;
-  
-}
-th, td {
-  padding: 8px;
 }
 
 a {
@@ -163,182 +158,146 @@ a:hover {
   color: grey;
 }
 
-
-
-
-
-
-
-
-
-@media screen and (max-width:320px){
+@media screen and (max-width: 320px) {
   #cuerpo {
-    background-color: #405158;
-    width: 320px;
-    height: 1280px;
-    z-index: -1;
+      background-color: #405158;
+      width: 320px;
+      height: 1280px;
   }
-  
-.wrapper {
-  position: absolute;
-  display: flex;
-  width: 320px;
-  left: 0px;
-  text-align: center;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-}
-.column {
-  font-size: 4vh;
-  color: white;
-  background: #405158;
-  margin: 0.1em;
-  padding: 0.3em 1em;
-  border-radius: 3px;
-  flex: 1;
-}
-.face_elements {
-  position: absolute;
-  top: 10px;
-  left: 0px;
-  text-align: center;
-  height: 560px;
-  width: 320px;
-  color: white;
-  font-size: small;
-}
-.handle_img_faceelements {
-  border-radius: 5%;
-  position: relative;
-  height: 100px;
-  width: 200px;
-}
-._info_column_handle {
-  position: absolute;
-  top: 190px;
-  left: 0px;
-  width:320px;
-  font-size: small;
-  color: white;
-  
-}
-.paquet {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.paquet > div {
-  
-  color: white;
- 
-  
-  padding-left: 10px;
-  border-radius: 3px;
-  flex: 1;
-}
-.revanchaproject {
-  position: absolute;
-  top: 930px;
-  left: 0px;
-  text-align: left;
-  font-size: small;
 
-  height: 220px;
-  width: 320px;
-  border-radius: 15%;
-  color: white;
-}
-.imagenrevancha2 {
-  position: absolute;
-  top: 30px;
-  right: 5px;
-  border-radius: 10%;
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
-  height: 100px;
-  width: 100px;
-}
+  .containerbox {
+      position: absolute;
+      display: flex;
+      width: 320px;
+      left: 0px;
+      text-align: center;
+  }
 
-.txtrevancha {
-  position: relative;
-  left: -30px;
-  width: 180px;
-  color: white;
-  padding: 10px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: 2px;
-  border-color: #C80036;
-}
+  .insidebox {
+      display: flex;
+      flex-direction: column;
+      font-size: 4vh;
+      color: white;
+      background: #405158;
+      margin: 0.1em;
+      padding: 0.3em 1em;
+      border-radius: 3px;
+      flex: 1;
+  }
+  .face_elements {
+      position: absolute;
+      top: 10px;
+      left: 0px;
+      text-align: center;
+      height: 560px;
+      width: 320px;
+      color: white;
+      font-size: small;
+  }
+  .handle_img_faceelements {
+      border-radius: 5%;
+      position: relative;
+      height: 100px;
+      width: 200px;
+  }
+  ._info_column_handle {
+      position: absolute;
+      top: 190px;
+      left: 0px;
+      width: 310px;
+      font-size: small;
+      color: white;
+  }
+  .paquet {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .paquet > div {
+      color: white;
 
-.cbdproject {
-  position: absolute;
-  top: 700px;
-  left: -30px;
+      padding-left: 10px;
+      border-radius: 3px;
+      flex: 1;
+  }
+  .revanchaproject {
+      position: absolute;
+      top: 930px;
+      left: 0px;
+      text-align: left;
+      font-size: small;
 
-  font-size: small;
-  height: 220px;
-  width: 320px;
-  border-radius: 15%;
+      height: 220px;
+      width: 320px;
+      border-radius: 15%;
+      color: white;
+  }
+  .imagenrevancha2 {
+      position: absolute;
+      top: 30px;
+      left: 5px;
+      border-radius: 10%;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      height: 100px;
+      width: 100px;
+  }
 
-  color: white;
-}
-.imagendecbd_handle {
-  position: absolute;
-  top: 60px;
-  border-radius: 10%;
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
-  height: 100px;
-  width: 100px;
-}
+  .cbdproject {
+      position: absolute;
+      top: 700px;
+      left: 5px;
 
-.textcdb {
- position: relative;
+      font-size: small;
+      height: 220px;
+      width: 310px;
+      border-radius: 15%;
 
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: 2px;
-  border-color: #C80036;
-left: -40px;
-  width: 180px;
-}
-.handle_pagefoter {
-  position: absolute;
-  top: 1150px;
-  left: 20px;
-font-size: smaller;
-  height: 120px;
-  
+      color: white;
+  }
+  .fila_1 {
+      position: absolute;
+      left: 0px;
+  }
+  .fila_2 {
+      position: absolute;
+      right: 10px;
+      top: 35px;
+      position: absolute;
+      width: 180px;
+      border-top-style: solid;
+      padding-top: 7px;
+      border-width: 2px;
+      border-color: #C80036;
+  }
+  .imagendecbd_handle {
+      position: absolute;
+      top: 60px;
+      border-radius: 10%;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      height: 100px;
+      width: 100px;
+  }
 
-  color: black;
+  .handle_pagefoter {
+      position: absolute;
+      top: 1150px;
+      left: 20px;
+      width: 300px;
+      font-size: smaller;
+      height: 120px;
 
-}
-.titulo_foter{
-  position: absolute;
-  top: -20px; left: 63px;
-}
+      color: black;
+  }
 
-#lista {
-  list-style: none;
-  width: 400px;
-  
-}
-th, td {
-  padding: 8px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover {
-  color: grey;
-}
-
-
+  a {
+      color: black;
+      text-decoration: none;
+  }
+  a:hover {
+      color: grey;
+  }
 }
