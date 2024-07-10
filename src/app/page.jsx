@@ -81,7 +81,7 @@ export const InformColumn = () => {
 
                         <li>
                             I choose to learn day by day to nurture soft and
-                            technical skills necessary for digital services When
+                            technical skills necessary for digital services. When
                             im not online, i loves make music and visual design.
                         </li>
                     </div>
